@@ -4,6 +4,13 @@
   <artifactId>example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <repositories>
+    <repository>
+      <id>repository.jboss.org-public</id>
+      <name>JBoss.org Maven repository</name>
+      <url>https://repository.jboss.org/nexus/content/groups/public</url>
+    </repository>
+  </repositories>	
   <modules>
   	<module>lib</module>
   	<module>web</module>
