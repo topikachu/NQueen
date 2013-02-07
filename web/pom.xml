@@ -9,16 +9,7 @@
   <packaging>war</packaging>
   <build>
   <plugins>
-    <plugin>            
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-war-plugin</artifactId>
-  <configuration>
-    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
-    <outputDirectory>${project.parent.basedir}/deployments</outputDirectory>
-    <warName>ROOT</warName>
-
-  </configuration>
-</plugin>
+  
   </plugins>
   </build>
 
