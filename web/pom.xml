@@ -14,7 +14,9 @@
   <artifactId>maven-war-plugin</artifactId>
   <configuration>
     <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
-    <warName>example</warName>      
+    <outputDirectory>${project.parent.basedir}/deployments</outputDirectory>
+    <warName>ROOT</warName>
+
   </configuration>
 </plugin>
   </plugins>
